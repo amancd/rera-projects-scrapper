@@ -28,6 +28,7 @@ It extracts key project details from the project detail pages, including:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Run The Script
 1. Clone or download this repository  
@@ -37,7 +38,7 @@ pip install -r requirements.txt
 
 ## Why Selenium?
 
-The RERA Odisha Projects website relies heavily on dynamic content that loads after the initial page load, such as project cards and details that appear only after clicking links or switching tabs. Traditional static scraping tools like `requests` and `BeautifulSoup` cannot interact with such dynamic elements or execute JavaScript.
+The RERA Odisha Projects website relies heavily on dynamic content that loads after the initial page load, such as project cards and details that appear only after clicking links or switching tabs. Traditional static scraping tools like requests and BeautifulSoup cannot interact with such dynamic elements or execute JavaScript.
 
 Selenium is a powerful browser automation tool that allows us to:
 
