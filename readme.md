@@ -31,10 +31,11 @@ pip install -r requirements.txt
 ```
 
 ## Run The Script
-1. Clone or download this repository  
-2. Open command prompt or terminal
-3. cd rera-projects-scrapper
-4. python main.py
+1. Clone or download this repository
+2. Unzip the folder
+3. Open command prompt or terminal inside the folder
+4. cd rera-projects-scrapper-main
+5. python main.py
 
 ## Why Selenium?
 
